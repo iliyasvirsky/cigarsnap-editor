@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --cigar-dark: #1a120b;
+  --cigar-accent: #c2410c;
+  --cigar-gold: #d4af37;
+}
+
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+}
+
+.editor-canvas {
+  max-width: 100%;
+  max-height: 70vh;
+  border: 2px solid #3f2e1e;
+  border-radius: 8px;
+  background: #111;
+}
