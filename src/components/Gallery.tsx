@@ -46,7 +46,7 @@ const Gallery: React.FC<GalleryProps> = ({ savedImages, onClear }) => {
                 <img
                   src={entry.imageUrl}
                   alt={`Cigar entry ${index}`}
-                  className="w-full h-full object-cover"
+                  className="mx-auto block"
                 />
                 <div className="absolute top-4 right-4 bg-black/70 px-3 py-1 rounded-full text-sm font-mono text-amber-300">
                   {new Date(entry.timestamp).toLocaleDateString()}
